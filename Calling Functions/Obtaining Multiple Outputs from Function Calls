@@ -1,0 +1,12 @@
+load datafile
+v1 = data(:,3)
+v2 = data(:,4)
+
+Task 1
+dsize = size(data)
+
+Task 2
+[dr,dc] = size(data)
+
+Task 3
+[vMax,ivMax] = max(v2)
