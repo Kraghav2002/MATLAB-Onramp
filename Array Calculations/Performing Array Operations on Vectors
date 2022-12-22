@@ -1,0 +1,22 @@
+load datafile
+density = data(:,2);
+v1 = data(:,3)
+v2 = data(:,4)
+
+Task 1
+r = 1 + v1
+
+Task 2
+vs = v1 + v2
+
+Task 3
+va = vs/2
+
+Task 4
+vm = max(va)
+
+Task 5
+vr = round(va)
+
+Task 6
+mass = density.*va
