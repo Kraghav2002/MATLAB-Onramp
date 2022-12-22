@@ -1,0 +1,8 @@
+Task 1
+x = rand(5)
+
+Task 2
+y = rand(5,1)
+
+Task 3
+z = zeros(6,3)
