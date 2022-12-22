@@ -1,0 +1,9 @@
+load datafile
+elements
+
+Task 1
+d = elements.Density
+
+Task 2 & 3
+elements.Mass = elements.Density.*elements.Volume1
+elements = sortrows(elements,"Mass")
