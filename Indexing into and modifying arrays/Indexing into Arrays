@@ -1,0 +1,11 @@
+load datafile
+data
+
+Task 1
+x = data(6,3)
+
+Task 2
+y = data(end,3)
+
+Task 3
+z = data(end-1,3)
