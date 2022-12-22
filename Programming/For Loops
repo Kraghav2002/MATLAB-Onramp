@@ -1,0 +1,10 @@
+load datafile
+density = data(:,1);
+
+Task 1
+for idx = 1:7
+    hold on
+    plot(idx,density(idx),"*")
+    hold off
+    pause(0.2)
+end
