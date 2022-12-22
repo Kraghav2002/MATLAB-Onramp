@@ -1,0 +1,18 @@
+load datafile
+sample = data(:,1);
+v1 = data(:,3);
+
+Task 1
+x = pi < 4
+
+Task 2
+y = v1 < 4
+
+Task 3
+z = v1(v1 < 4)
+
+Task 4
+a = sample(v1 < 4)
+
+Task 5
+v1(v1<4) = 0
