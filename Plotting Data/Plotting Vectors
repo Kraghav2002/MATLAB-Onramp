@@ -1,0 +1,27 @@
+load datafile
+sample = data(:,1);
+density = data(:,2);
+v1 = data(:,3);
+v2 = data(:,4);
+mass1 = density.*v1;
+mass2 = density.*v2;
+
+Task 1
+plot(sample,mass1)
+
+Task 2
+plot(sample,mass2,"r*")
+Task 3
+hold on
+plot(sample,mass1,"ks")
+Task 4
+hold off
+
+Task 5
+plot(v1)
+
+Task 6
+plot(v1,"LineWidth",3)
+
+Task 7
+plot(sample,v1,"ro-","LineWidth",4)
