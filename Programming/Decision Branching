@@ -1,0 +1,15 @@
+doPlot = randi([0 1])
+This code loads the data.
+load datafile
+density = data(:,1);
+
+Task 1 & 2
+if doPlot == 1
+    plot(density)
+    title("Sample Densities")
+    xticklabels(element)
+    ylabel("Density (g/cm^3)")
+else
+    disp("The density of " + element ...
+        + " is " + density)
+end
